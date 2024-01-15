@@ -9,23 +9,31 @@ Jarvis is a Python-based AI assistant that utilizes various modules to perform t
 Jarvis relies on the following Python modules:
 
 [pyttsx3](): A text-to-speech conversion library.
+
 [speech_recognition](): Library for speech recognition.
+
 [pyaudio](): Module for working with audio.
+
 [wikipedia](): A library for accessing and parsing Wikipedia content.
+
 datetime: Module to work with dates and times.
+
 webbrowser: Module for displaying web-based documents.
+
 os: Module for interacting with the operating system.
+
 smtplib: Module for sending emails using SMTP.
 
 ## Installation
+
 To manually install the required modules, you can use the following commands:
 
-'''bash
+\```bash
 $pip install pyttsx3
 $pip install SpeechRecognition
 $pip install pyaudio
 $pip install wikipedia
-'''
+```
 
 For the standard modules (datetime, webbrowser, os), no separate installation is needed.
 
@@ -38,21 +46,21 @@ For the standard modules (datetime, webbrowser, os), no separate installation is
 3.Modify the code to include your desired pre-programmed sentences.
 4.If you encounter issues installing, it might be due to missing dependencies.In that case,
 
-'''bash
+\```bash
 pip install pyttsx3
 pip install SpeechRecognition
 pip install pyaudio
 pip install wikipedia
-'''
+```
 
 5.Locate to the folder
 
-'''bash
+\```bash
 cd JARVIS.AI
-'''
+```
 
 6.Run the script using the command:
 
-'''bash
+\```bash
 python jarvis.py
-'''
+```
