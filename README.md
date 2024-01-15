@@ -28,7 +28,7 @@ smtplib: Module for sending emails using SMTP.
 
 To manually install the required modules, you can use the following commands:
 
-\```bash
+```bash
 $pip install pyttsx3
 $pip install SpeechRecognition
 $pip install pyaudio
@@ -46,7 +46,7 @@ For the standard modules (datetime, webbrowser, os), no separate installation is
 3.Modify the code to include your desired pre-programmed sentences.
 4.If you encounter issues installing, it might be due to missing dependencies.In that case,
 
-\```bash
+```bash
 pip install pyttsx3
 pip install SpeechRecognition
 pip install pyaudio
@@ -55,12 +55,12 @@ pip install wikipedia
 
 5.Locate to the folder
 
-\```bash
+```bash
 cd JARVIS.AI
 ```
 
 6.Run the script using the command:
 
-\```bash
+```bash
 python jarvis.py
 ```
